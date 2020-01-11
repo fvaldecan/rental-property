@@ -1,0 +1,229 @@
+.toolbar{
+    background-color:#5acfc9;
+    color: whitesmoke;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 8%;
+    box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2);
+}
+
+@media (min-width: 1600px) {
+.toolbar button{
+    background-color: #5acfc9; 
+    color: whitesmoke;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: px;
+    margin: 20px 20px 20px 20px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    outline-color: none;
+    }
+    .dropdown-content {
+        margin-top: 4.5%;
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        font-size: 12px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+}
+@media (min-width: 992px) and (max-width: 1599px) {
+.toolbar button{
+    background-color: #5acfc9; 
+    color: whitesmoke;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+    cursor: pointer;
+    outline-color: none;
+    }
+    .dropdown-content {
+        margin-top: 5%;
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        font-size: 12px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+}
+.dropdown{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+.instructions {
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown-content a{
+    color: black;
+    text-decoration: none;
+    padding: 10px 10px;
+    display: block;
+    float: none;
+    cursor: pointer;
+
+}
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+.toolbar-options{
+    display: flex;
+    flex-direction: row;
+}
+.pop-up-item{
+    margin-top: 350px;
+    display: none;
+    position: absolute;
+    background-color: gainsboro;
+    color: black;
+    width:90%;
+    max-width: max-content;
+    font-size: 15px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 10px;
+    z-index: 1;
+}
+.pop-up-example{
+    margin-top: 320px;
+    display: none;
+    justify-content: center;
+    position: absolute;
+    background-color: gainsboro;
+    color: black;
+    max-width: 200px;
+    font-size: 15px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 10px;
+    z-index: 1;
+}
+#assignment{
+    width:50%;
+}
+.data-images{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+#entering-data-image1{
+    background-image: url(./pics/data-image1.png);
+    width: 204px;
+    height: 266px;
+}
+#entering-data-image2{
+    background-image: url(./pics/data-image2.png);
+    width: 200px;
+    height: 311px;
+}
+#entering-data-image3{
+    background-image: url(./pics/data-image3.png);
+    width: 546px;
+    height: 458px;
+}
+.adj-images{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.adj-images2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#adj-image1{
+    background-image: url(./pics/adj-image1.png);
+    width: 500px;
+    height: 100px;
+    
+}
+#adj-image2{
+    background-image: url(./pics/adj-image2.png);
+    width: 500px;
+    height: 192px;
+    margin-top: 10px;
+}
+#adj-image3{
+    background-image: url(./pics/adj-image3.png);
+    width: 500px;
+    height: 281px;
+}
+
+.topo-images{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#topo-image1{
+    background-image: url(./pics/topo-image1.png);
+    width: 500px;
+    height: 340px;
+}
+#topo-image2{
+    background-image: url(./pics/topo-image2.png);
+    width: 500px;
+    height: 340px;
+}
+#topo-image3{
+    background-image: url(./pics/topo-image3.png);
+    width: 500px;
+    height: 500px;
+}
+#topo-image4{
+    background-image: url(./pics/topo-image4.png);
+    width: 495px;
+    height: 500px;
+}
+
+#rev-image1{
+    background-image: url(./pics/rev-image1.png);
+    width: 500px;
+    height: 420px;
+}
+#rev-image2{
+    background-image: url(./pics/rev-image2.png);
+    width: 500px;
+    height: 450px;
+}
+
+#path-image1{
+    background-image: url(./pics/path-image1.png);
+    width: 504px;
+    height: 450px;
+}
+#path-image2{
+    background-image: url(./pics/path-image2.png);
+    width: 503px;
+    height: 450px;
+}
+#path-image3{
+    background-image: url(./pics/path-image3.png);
+    width: 597px;
+    height: 540px;
+}
+
+
