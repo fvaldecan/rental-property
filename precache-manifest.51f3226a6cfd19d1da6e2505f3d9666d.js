@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b960421896fe40500b3375f889045526",
+    "revision": "899c9508a25f50a057fef506d8d0c5f4",
     "url": "/rental-property/index.html"
   },
   {
-    "revision": "dc850fb5ff1527ec66ea",
-    "url": "/rental-property/static/css/main.9b068812.chunk.css"
+    "revision": "a503da648a903226b87a",
+    "url": "/rental-property/static/css/main.9bef7db6.chunk.css"
   },
   {
     "revision": "89015534531514b52171",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/rental-property/static/js/2.b16d55ff.chunk.js.LICENSE"
   },
   {
-    "revision": "dc850fb5ff1527ec66ea",
+    "revision": "a503da648a903226b87a",
     "url": "/rental-property/static/js/main.7bfecb9c.chunk.js"
   },
   {
