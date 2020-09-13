@@ -16,7 +16,7 @@ export default class Node extends Component{
                 <h1>Finding Optimal Revenue and Path using Topological Sorting</h1>
                 <div className="toolbar-options">
                     <div className ="dropdown">
-                        <button>Test Data Examples</button>
+                        <button className="instructions">Test Data Examples</button>
                         <div className="dropdown-content">
                             <a onClick={()=> this.openPopUp('example1')}>Data Example 1</a>
                             <a onClick={()=> this.openPopUp('example2')}>Data Example 2</a>
